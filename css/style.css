@@ -1,0 +1,92 @@
+/************************FIX****************************/
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/************************END-of-FIX*************************/
+
+/*************MAIN-CONTAINERS********************************/
+
+.main{
+  margin-top: 20px;
+  position: relative;
+  width: 1400px;
+  height: 500px;
+  background-color: gray;
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+/****************END-of-MAIN-CONTAINERS********************/
+
+
+/************************TILE*******************************/
+
+.tile {
+  display: inline-block;
+  position: relative;
+  height: 500px;
+  width: 450px;
+}
+
+/*
+.tile {
+  position: absolute;
+  height: 500px;
+  width: 450px;
+  left: 10px;
+} */
+
+
+/*************************END-of-TILE*******************************/
+
+/**************************IMAGES**************************************/
+
+img {
+  width: 450px;
+  height: 500px;
+
+}
+/***************************END-of-IMAGES*****************************/
+
+
+/**************************END-of-HEARTS******************************/
+
+span {
+  position: absolute;
+  display: none;
+  font-size: 25px;
+  bottom: 15px;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  text-align: center;
+  }
+
+.tile:hover span {
+  display: block;
+  color: red;
+
+/****************************END-of-HEARTS************************************/
+
+
+/*******************************DISCOUNT***********************************/
+
+}
+.discount-hight {
+  position: absolute;
+  display: inline-block;
+  background-color: green;
+  right: 0px;
+}
+
+.discount-low {
+  position: absolute;
+  display: inline-block;
+  background-color: red;
+  right: 0px;
+}
+
+/****************************END-of-DISCOUNT************************************/
